@@ -170,3 +170,36 @@ a {
    border-color: transparent transparent transparent #000000;
    transform: rotate(0deg);
 }
+
+/*about us*/
+.about-items{
+    display: flex;
+}
+
+.block-title{
+    @include fontStyle($fira-sans-font-family, #6B6B6B, 18px, $regilar, 119%, 15%);
+}
+
+.about-us-title{
+    @include fontStyle($fira-sans-font-family, #171717, 45px, $bold, 119%, 15%);
+}
+
+.about-us-subtitle{
+    @include fontStyle($urbanist-font-family, #171717, 20px, $medium, 180%, 2%);
+}
+
+.about-us-text{
+    @include fontStyle($urbanist-font-family, #171717, 20px, $regilar, 180%, 2%);
+}
+
+.button-about{
+    padding: 25px 36px;
+}
+
+.about-us-left{
+    padding-right: 33px;
+}
+
+.about-us-right{
+    padding-left: 33px;
+}
