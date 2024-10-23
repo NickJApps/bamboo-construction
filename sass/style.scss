@@ -175,3 +175,59 @@ a {
    border-color: transparent transparent transparent #000000;
    transform: rotate(0deg);
 }
+
+/*about us*/
+.section-title{
+    @include fontStyle($fira-sans-font-family, #6B6B6B, 18px, $regilar, 119%, 15px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+}
+
+.section-title::before{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #F0A500;
+    margin-right: 10px;
+}
+
+.about-title{
+    @include fontStyle($fira-sans-font-family, #171717, 45px, $bold, 119%, 2px);
+    margin: 20px 0px 75px 0px;
+}
+
+.about-items{
+    display: flex;
+}
+
+.about-item-left{
+    padding-right: 30px;
+    display: flex;
+}
+
+.abuot-image-left{
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.about-item-right{
+    padding-left: 30px;
+    width: 50%;
+}
+
+.about-us-subtitle{
+    @include fontStyle($urbanist-font-family, #171717, 20px, $medium, 180%, 1px);
+    margin: 38px 0px 8px 0px;
+}
+
+.about-us-text{
+    @include fontStyle($urbanist-font-family, #171717, 18px, $regilar, 180%, 1px);
+}
+
+.about-us-button{
+    margin-top: 36px;
+    padding: 25px 36px;
+}

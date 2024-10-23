@@ -230,3 +230,88 @@ a {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
 }
+
+/*about us*/
+.section-title {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6B6B6B;
+  line-height: 119%;
+  letter-spacing: 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section-title::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #F0A500;
+  margin-right: 10px;
+}
+
+.about-title {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #171717;
+  line-height: 119%;
+  letter-spacing: 2px;
+  margin: 20px 0px 75px 0px;
+}
+
+.about-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-item-left {
+  padding-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.abuot-image-left {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+
+.about-item-right {
+  padding-left: 30px;
+  width: 50%;
+}
+
+.about-us-subtitle {
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #171717;
+  line-height: 180%;
+  letter-spacing: 1px;
+  margin: 38px 0px 8px 0px;
+}
+
+.about-us-text {
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #171717;
+  line-height: 180%;
+  letter-spacing: 1px;
+}
+
+.about-us-button {
+  margin-top: 36px;
+  padding: 25px 36px;
+}
