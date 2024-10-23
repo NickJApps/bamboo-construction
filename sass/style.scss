@@ -37,10 +37,15 @@ a {
 }
 
 /* container */
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
 .container-sm{
     max-width: 1300px;
-    margin: 0 auto;
     padding: 110px 15px;
+    margin: 0 auto;
 }
 
 /* Button */
