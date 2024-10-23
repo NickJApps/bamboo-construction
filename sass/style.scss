@@ -39,6 +39,7 @@ a {
 /* container */
 .section{
     max-width: 1920px;
+    margin: 0 auto;
 }
 
 .container-sm{
@@ -64,6 +65,8 @@ a {
 
 .header {
     position: relative;
+    margin: 0 auto;
+    max-width: 1920px;
 }
 
 .header-pattern {
@@ -176,6 +179,16 @@ a {
 }
 
 /*About us*/
+.about-section{
+    position: relative;
+}
+
+.about-bg-pattern{
+    position: absolute;
+    bottom: -250px;
+    z-index: -1;
+}
+
 .section-title{
     @include fontStyle($fira-sans-font-family, #6B6B6B, 18px, $regilar, 119%, 15px);
     position: relative;

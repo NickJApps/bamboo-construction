@@ -31,6 +31,7 @@ a {
 /* container */
 .section {
   max-width: 1920px;
+  margin: 0 auto;
 }
 
 .container-sm {
@@ -59,6 +60,8 @@ a {
 /* nav */
 .header {
   position: relative;
+  margin: 0 auto;
+  max-width: 1920px;
 }
 
 .header-pattern {
@@ -231,6 +234,16 @@ a {
 }
 
 /*About us*/
+.about-section {
+  position: relative;
+}
+
+.about-bg-pattern {
+  position: absolute;
+  bottom: -250px;
+  z-index: -1;
+}
+
 .section-title {
   font-family: "Fira Sans", sans-serif;
   font-size: 18px;
